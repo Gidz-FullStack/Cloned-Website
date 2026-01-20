@@ -1,0 +1,161 @@
+*{
+    /* padding: 0; */
+    /* margin: 0; */
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+.container span{
+    display: none;
+    position: absolute;
+    left: 5%;
+    top: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    width: 30%;
+    margin: 5% auto;
+    /* border: thick solid green; */
+    position: relative;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 3%;
+}
+
+.logo{
+    width: 64px;
+    align-self: center;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.heading p{
+    color: #4a4a67;
+}
+
+.forms{
+    border: thin solid black;
+    width: 100%;
+}
+input{
+    width: 100%;
+    margin-top: 7%; 
+    padding-block: 3%;
+    border: thin solid grey;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: left;
+    
+}
+
+.form button{
+    width: 100%;
+    background-color: #f8982d;
+    color: white;
+    padding-block: 3%;
+    margin-top: 7%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    font-size: 16px;
+    font-weight: 700;
+}
+.form p{
+    font-size: 12px;
+    margin: 1%;
+}
+.form a{
+    color: #f8982d;
+}
+
+.buttons{
+    width: 100%; 
+    
+}
+/* .buttons a{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing:1px;
+    width: 80%;
+    text-decoration: none;
+    margin-top: 3%;
+    letter-spacing: 1.5px;
+}
+.buttons i{
+    width: 5%;
+    margin-block: 5%;
+}
+
+.fb{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 2% auto;
+    background-color: #1877f2;
+    
+    border-radius: 5px; 
+}
+.fb a{
+    color: white;  
+}
+
+.google{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 2% auto;
+    background-color: white;
+    color: black;
+    border: thin solid black;
+    border-radius: 5px;
+}
+
+.google a{
+    color: black;
+} */
+
+.login{
+    width: 100%;
+}
+
+ .opt::before,
+    .opt::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background-color: #ddd;
+    }
+
+    .opt span {
+        padding: 0 1rem;
+    }
+.login p{
+    width: 20%;
+    color: #757575;
+
+}
+.footer p{
+    width: 80%;
+    margin: 4% auto;
+    font-size: 13px;
+    padding-bottom:5% ;
+}
+
+@media (max-width:599) {
+    .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .container span{
+        display:block;
+    }
+}
